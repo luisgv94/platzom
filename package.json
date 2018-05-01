@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzon",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisgv94/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Luis Gomero <lgomero94@gmail.com> (http://twitter.com/luisg94)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisgv94/platzom/issues"
+  },
+  "homepage": "https://github.com/luisgv94/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
